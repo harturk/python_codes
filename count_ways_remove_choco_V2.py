@@ -1,3 +1,8 @@
+
+# This version file contain an alternative solution for this problem and a small correction of the first solution. 
+# Knowing this alternative way of resolving it, I was able to get a result more accurate, therefore having found this small bug.
+
+
 """
 Problem: Code a function that count the ways of removing chocolate from a box.
 Chocolates can be removed 1 at time or 3 at time. [1,3,1] its different from [3,1,1].
@@ -56,6 +61,7 @@ else:
 # will be equal to the len(arr)
             if n3 <= 1:
                 count = count + len(ways)
+# Here was the bug, causing the algorithm to wrongly add 
             elif n1 <= 1:
                 count = count + 1
             else:
