@@ -24,7 +24,7 @@ def leftShifts(string, n):
     leftShiftedString = []
     for i in range(n):
         # Add n cycle elements to the original string
-        # Everytime the function next is called, it will take the next
+       # Every time the next function is used, it will call the next element where the last time next was called
         string.append(next(stringCycled))
     for i in range(n,len(string)):
         # Take part of the string, where if was added 2 elements, will be removed the first 2 elements
