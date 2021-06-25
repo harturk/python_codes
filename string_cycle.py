@@ -9,7 +9,7 @@ from itertools import cycle
 
 # Number of times it will rotate to the left
 lS = 2
-# Number of times it will rotate to the left
+# Number of times it will rotate to the right
 rS = 4
 # String
 s = 'abcdefg'
