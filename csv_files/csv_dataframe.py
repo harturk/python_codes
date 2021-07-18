@@ -52,7 +52,7 @@ for i in range(len(list_Crossed)):
         else:
             dict_Card[value] += 1
 
-# Intersect who used both
+# Intersect who used both, card and no card
 for i in dict_NoCard.keys():
     if i in dict_Card.keys():
         list_Intersection.append(i)
