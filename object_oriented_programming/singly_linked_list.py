@@ -1,6 +1,6 @@
 """
 My first steps into OOP was learning to manipulate a Singly Linked List. In the code bellow, it is showing how to
-add elements at the end of list (works like append from static lists), add elements at the beginning, add elements in a n position (index)
+add elements at the end of list, add elements at the beginning and add elements in a n position (index)
 """
 
 class LinkedListNode:
