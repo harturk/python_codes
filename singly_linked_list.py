@@ -1,3 +1,8 @@
+"""
+My first steps into OOP was learning to manipulate a Singly Linked List. In the code bellow, it is showing how to
+add elements at the end of list (works like append from static lists), add elements at the beginning, add elements in a n position (index)
+"""
+
 class LinkedListNode:
     def __init__(self, value, nextNode=None):
         self.value = value
@@ -64,8 +69,8 @@ class LinkedList:
         while True:
             if i == pos:
                 break
-            # Essa linha é acrescentada para não ter erro ao passar como parâmetro
-            # um valor de k maior que o tamanho da lista
+            # This elif was added in order to not return an error in case
+            # the position is out of bounds
             elif currNode.nextNode is None:
                 print("Index out of bounds. Will be added as the last element")
                 break
